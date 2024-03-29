@@ -1,5 +1,18 @@
 # Nuxt 3 Minimal Starter
 
+
+# Wichtig
+
+.env dateien IMMER  mit den VITE_ davor damit erkannt werden, wie in REACT
+
+```
+```
+
+
+
+
+
+
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
