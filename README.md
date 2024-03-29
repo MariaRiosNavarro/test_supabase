@@ -22,6 +22,18 @@ export const supabase = createClient(
 
 ```
 
+IM supabase die Auth policy in den Tables checken und einstellen sonst wird uns ein leeres Array
+
+
+
+
+
+
+
+
+
+
+
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
