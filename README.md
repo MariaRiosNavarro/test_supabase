@@ -1,17 +1,26 @@
 # Nuxt 3 Minimal Starter
 
-
 # Wichtig
 
-.env dateien IMMER  mit den VITE_ davor damit erkannt werden, wie in REACT
+.env dateien IMMER mit den VITE\_ davor damit erkannt werden, wie in REACT
 
 ```
+VITE_SUPABASE_URL=
+VITE_SUPABASE_KEY=
+
 ```
 
+-dann so im code zb so nutzen:
 
+```
+import { createClient } from "@supabase/supabase-js";
 
+export const supabase = createClient(
+  import.meta.env.VITE_SUPABASE_URL,
+  import.meta.env.VITE_SUPABASE_KEY
+);
 
-
+```
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
