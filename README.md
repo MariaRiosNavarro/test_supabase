@@ -25,8 +25,9 @@ export const supabase = createClient(
 IM supabase die Auth policy in den Tables checken und einstellen sonst wird uns ein leeres Array
 
 
+---
 
-
+DOCKER files sind nur für Deployment. Es heiß nicht für development. NAch jeder Änderung braucht man die vorherige Container und Image löschen und wieder bauen mit `docker compose up`. Dev nur zurzeit wie immer mit `npm run dev`ohne docker
 
 
 
