@@ -27,6 +27,7 @@ provide("supabaseClient", supabase);
 </script>
 
 <template>
+  <h1>TEST HEADLINE</h1>
   <div>
     <!-- Nur jeder Object -->
     <div>

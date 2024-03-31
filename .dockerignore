@@ -1,0 +1,14 @@
+.git
+.vscode
+.nuxt
+.output
+node_modules
+.dockerignore
+docker-compose*
+Dockerfile*
+Readme.md
+
+# Local env files
+.env
+.env.*
+!.env.example
