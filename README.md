@@ -1,8 +1,8 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 + Vite + Supabase with Docker (only Deployment)
 
 # Wichtig
 
-.env dateien IMMER mit den VITE\_ davor damit erkannt werden, wie in REACT
+.env dateien IMMER mit den VITE\_ davor damit erkannt werden, wie in REACT. zb
 
 ```
 VITE_SUPABASE_URL=

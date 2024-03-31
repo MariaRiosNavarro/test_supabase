@@ -7,3 +7,8 @@ node_modules
 docker-compose*
 Dockerfile*
 Readme.md
+
+# Local env files
+.env
+.env.*
+!.env.example
